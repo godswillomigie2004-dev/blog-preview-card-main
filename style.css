@@ -40,7 +40,17 @@ body{
     display: inline-block;
     padding: 5px 10px;
     border-radius: 5px;
+    cursor: pointer; 
+    transition: transform 0.2s ease ;  
 }
+.topic:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+.topic:active{
+    transform:scale(0.95)
+}
+
 p{
     font-size: 16px;
     font-weight: 500;
@@ -48,3 +58,27 @@ p{
 h1, h5{
     font-weight: 800;
 }
+.header:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.header:active{
+    transform: scale(0.95);
+}
+.header{
+    transition: transform 0.2s ease ;  
+}
+
+footer{
+    margin-top: 15px;
+}
+.clickable:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.05);    
+}
+.clickable{
+    transition: transform 0.2s ease ;  
+}
+
